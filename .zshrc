@@ -99,6 +99,7 @@ alias new='. ~/.zshrc'
 alias update='sudo nano ~/.zshrc'
 alias mpc='mpc.pl -type make *.mpc;mwc.pl -type make'
 alias mcm='make clean;make'
+alias clear='clear;clear'
 
 # Spectrum function
 #function spectrum_ls() {
