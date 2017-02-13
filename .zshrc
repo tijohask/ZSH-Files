@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="fino"
+ZSH_THEME="xiong-chiamiov-plus"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -82,7 +82,7 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Set PATH variable
-PATH="$PATH:~/CLion:"
+# PATH="$PATH:/home/CLion"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -93,18 +93,12 @@ PATH="$PATH:~/CLion:"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias tesla='ssh tijohask@tesla.cs.iupui.edu'
-alias project='cd ~/Documents/ClassResources/SoftwareDesign/Assignments/csci36300_fall2016_tree'
+#alias project='cd ~/Documents/ClassResources/SoftwareDesign/Assignments/csci36300_fall2016_framework'
 alias cur='print $RANDOM_THEME'
 alias new='. ~/.zshrc'
 alias update='sudo nano ~/.zshrc'
 alias mpc='mpc.pl -type make *.mpc;mwc.pl -type make'
 alias mcm='make clean;make'
 alias clear='clear;clear'
-
-# Spectrum function
-#function spectrum_ls() {
-#  for code in {000..255}; do
-#    print -P -- "$code: %{$FG[$code]%}$ZSH_SPECTRUM_TEXT%{$reset_color%}"
-#  done
-#}
+alias x=xdg-open
 
